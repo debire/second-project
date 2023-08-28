@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stylish&display=swap');
+
+body,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    padding: 20px;
+}
+h1{
+    font-family: 'Stylish', sans-serif;
+    font-size: 50px;
+    color: darkblue;
+}
+
+.maincontent{
+    width: 95%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    width: 100%;
+    justify-content: center;
+}
+.image{
+    width: 100%;
+}
+input{
+    padding: 10px;
+    outline: none;
+    margin-top: 20px;
+    width: 100%;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 7px;
+    background-color: darkblue;
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
+.account{
+    width: 100%;
+    text-align: right;
+}
+.sign{
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    padding: 7px;
+}
+.logos{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 14px;
+}
